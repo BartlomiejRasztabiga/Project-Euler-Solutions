@@ -6,9 +6,9 @@ public class Problem07 {
         long i = 2;
         long count = 0;
         long first = 0;
-        while(true) {
+        while (true) {
             if (count == 10001) break;
-            if(isPrime(i)) {
+            if (isPrime(i)) {
                 first = i;
                 count++;
                 System.out.println(count + " number is " + first);
