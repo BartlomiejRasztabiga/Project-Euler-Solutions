@@ -3,7 +3,7 @@ package pl.rasztabiga;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Problem2 {
+public class Problem02 {
 
     public static void main(String[] args) {
         List<Integer> fibonacciToFourMillion = findFibonacciToFourMillion();
