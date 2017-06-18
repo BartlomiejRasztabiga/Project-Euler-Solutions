@@ -10,7 +10,7 @@ import java.util.List;
 public class Problem1 {
     public static void main(String[] args) {
         List<Integer> foundMultiples = new ArrayList<>();
-        for (int i = 1000; i > 0; i--) {
+        for (int i = 999; i > 0; i--) {
             if(i % 3 == 0 || i % 5 == 0) {
                 foundMultiples.add(i);
             }
