@@ -5,7 +5,7 @@ public class Problem03 {
     public static void main(String[] args) {
         long numberToCheck = 600851475143L;
 
-        for(long i = 2; i <= numberToCheck / 2; i++) {
+        for (long i = 2; i <= numberToCheck / 2; i++) {
             if (numberToCheck % i == 0) {
                 long factor = numberToCheck / i;
                 if (isPrime(factor)) {
@@ -18,7 +18,7 @@ public class Problem03 {
     }
 
     private static boolean isPrime(long number) {
-        for(long i = number - 1; i > 1; i--) {
+        for (long i = number - 1; i > 1; i--) {
             if (number % i == 0) return false;
         }
 

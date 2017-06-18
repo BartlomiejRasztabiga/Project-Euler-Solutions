@@ -11,7 +11,7 @@ public class Problem01 {
     public static void main(String[] args) {
         List<Integer> foundMultiples = new ArrayList<>();
         for (int i = 999; i > 0; i--) {
-            if(i % 3 == 0 || i % 5 == 0) {
+            if (i % 3 == 0 || i % 5 == 0) {
                 foundMultiples.add(i);
             }
         }
